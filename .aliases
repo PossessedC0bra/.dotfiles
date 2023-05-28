@@ -1,0 +1,7 @@
+# alias for managing dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# some funny and slightly useful aliases
+alias fucking='sudo'
+alias please='sudo $(history -p !!)'
+alias pls='please'
