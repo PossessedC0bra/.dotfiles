@@ -8,6 +8,10 @@ M.ui = {
   theme = "catppuccin",
   theme_toggle = { "catppuccin", "catppuccin" },
 
+  nvdash = {
+    load_on_startup=true,
+  },
+
   hl_override = highlights.override,
   hl_add = highlights.add,
 }
