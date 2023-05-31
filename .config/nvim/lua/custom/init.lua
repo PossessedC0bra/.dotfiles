@@ -5,3 +5,9 @@
 --   pattern = "*",
 --   command = "tabdo wincmd =",
 -- })
+
+-- enable "hybrid" line numbers
+vim.wo.relativenumber = true
+
+-- add rulers for 80 and 120 wide lines
+vim.opt.colorcolumn = { 80, 120 }
